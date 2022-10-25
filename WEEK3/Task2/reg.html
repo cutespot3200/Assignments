@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form2</title>
+    <link rel="stylesheet" href="reg.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="registration_form">
+        <div class="title">Registration Form</div>
+        <form action="">
+          <div class="form_wrap">
+            <div class="input_grp">
+              <div class="input_wrap">
+                <label for="fname">First Name</label>
+                <input
+                  type="text"
+                  name=""
+                  id="fname"
+                  placeholder="first name"
+                  required
+                />
+              </div>
+              <div class="input_wrap">
+                <label for="lname">Last Name</label>
+                <input
+                  type="text"
+                  name=""
+                  id="lname"
+                  placeholder="last name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="input_wrap">
+              <label for="phone" class="number_wrap">Phone Number</label>
+              <input
+                type="number"
+                name="phone"
+                id="phone"
+                placeholder="phone no"
+                class="input_number"
+                required
+              />
+            </div>
+            <div class="input_wrap">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                name=""
+                id="email"
+                placeholder="email"
+                required
+              />
+            </div>
+
+            <div class="input_wrap">
+              <label>Gender</label>
+              <ul>
+                <li>
+                  <label class="radio_wrap">
+                    <input
+                      type="radio"
+                      name="gender"
+                      value="male"
+                      class="input_radio"
+                      checked
+                    />
+                    <span>Male</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="radio_wrap">
+                    <input
+                      type="radio"
+                      name="gender"
+                      value="female"
+                      class="input_radio"
+                    />
+                    <span>Female</span>
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="input_wrap">
+              <label for="dob" class="dob_wrap">Date of Birth</label>
+              <input type="date" name="dob" id="dob" required />
+            </div>
+            <div class="input_wrap">
+              <label class="fav_wrap">Favourite Color</label>
+              <input type="color" name="color" id="color" required />
+            </div>
+            <div class="input_wrap">
+              <input
+                type="submit"
+                name=""
+                value="Register Now"
+                class="submit_btn"
+                formaction="./loginpage.html"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
